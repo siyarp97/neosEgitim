@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Etiketleri Uzun</title>
+    <style>
+        .centered{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Meta Etiketi</h1>
+    
+    <p>
+    <h2>Meta Nedir?</h2>
+        Arama motoruna bilgi veren ve HTML belgemin üzerinde, <code>head></code> etiketlerimin arasına yazabildiğim, sitemin hakkında bilgiler veren verilerdir diğer bir adıyla metadata da denilebilir. HTML her ne kadar etiketleme dili olsa ve sayfadaki aksiyonları görerek yakalayabiliyosak da, meta etiketleri için aynı şeyi söyleyemiyoruz. Meta etiketleri, sayfa üzerinde görünmeden, tarayıcılar, arama motorları ve web hizmetleri tarafından kullanılırlar. Her bir meta etiketi <i>semantiktir.</i>
+    </p>
+
+    <p>
+        <h2>Meta Etiketinin Kullanımı</h2>
+        Meta etiketleri HTML'in <a href="https://www.w3schools.com/tags/ref_standardattributes.asp">global özelliklerinin</a> hepsini kullanabilir. Bunun yanında, kendine ait kullandığı özellikler de bulunur bunlar: 
+
+        <br>
+        <table border="2">
+            <th width="25%">
+                Özellik
+            </th>
+            <th>Tanım</th>
+            <tr>
+                <td class="centered">charset</td>
+                <td class="centered">Karakter formatını belirlemek için kullanılır</td>
+            </tr>
+            <tr>
+                <td class="centered">content</td>
+                <td class="centered">http-equiv ya da name özelliğiyle iliştirilmiş değeri tanımlar.</td>
+            </tr>
+            <tr>
+                <td class="centered">http-equiv</td>
+                <td class="centered">İçerik özelliğinin bilgisi/değeri için HTTP başlığı sağlar.</td>
+            </tr>
+            <tr>
+                <td class="centered">name</td>
+                <td>Metadata için özel bir isim tanımlar.</td>
+            </tr>
+        </table>
+        <br>
+        Örnek kullanım için:
+        <br><br>
+
+        <b>Arama Motoruna Anahtar Kelime Tanımlamak İçin:</b>
+        <br>
+        
+        <code>
+            &lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;
+        </code>
+        <br><br>
+
+        <b>Sayfa Tanımı İçin:</b>
+        <br>
+        
+        <code>
+            &lt;meta name="description" content="Free Web tutorials for HTML and CSS"&gt;
+        </code>
+        <br><br>
+
+        <b>Sitenin Yazarını Tanıtmak İçin:</b>
+        <br>
+        
+        <code>
+            &lt;meta name="author" content="Şiyar Palabıyık"&gt;
+        </code>
+        <br><br>
+
+        <b>Her 30 Saniyede Sayfanın Yenilenmesi İçin:</b>
+        <br>
+        
+        <code>
+            &lt;meta http-equiv="refresh" content="30"&gt;
+        </code>
+
+    </p>
+  
+    
+    <p>
+        <h2>viewport, Özel Bir Etiket!</h2>
+        Viewport, sayfada kullanıcının görebildiği alandır. Her sayfanın boyutlandırma yapısı farklı olabilir. Farklı cihazlar üzerinde aynı verimde çıktı alabilmek için viewport özelliği kullanılır. Responsive bir tasarım oluşmasını sağlar. <br><br>
+
+        <b>Kullanımı:</b>
+        <br>
+        <code>
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+        </code>
+    </p>
+
+
+    
+    <br>
+    <hr>
+
+    <footer>
+    <h4><a href="./index.html">Ana Sayfaya Dönmek İçin Tıkla</a></h4>
+
+   
+        <a href="./odev3.html">Bir Önceki Sayfaya Git</a>
+    </footer>
+</body>
+
+</html>
