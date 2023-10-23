@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.filmCard{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+}
+
