@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 30%;
+    margin-top: 30px;
+    background-color: orange;
+    border-radius: 30%;
+}
+
+.btn{
+    color: wheat;
+    border: none;
+    background-color: orange;
+    font-size: 25px;
+}
+
+.btn:hover{
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+.sosyalContainer{
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.sosyalMedya{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sosyalMedya i {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.resim{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.resim img {
+    border-radius: 50px;
+}
+.botSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.botSec p {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
