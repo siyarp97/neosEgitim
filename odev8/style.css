@@ -3,17 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: rgba(82, 82, 119, 0.41);
+}
 .filmCard {
     height: 650px;
     width: 305px;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 100px;
     padding: 10px;
     border: 1px solid black;
     position: relative;
     border-radius: 10px;
     background-color: rgb(101, 99, 100);
+
 }
 
 h1 {
@@ -54,12 +57,16 @@ iframe {
     margin-top: 10px;
     width: 100%;
 }
-
+.btnContainer{
+    width: 100%;
+    
+}
 .btn {
+    margin: auto;
     border: 1px solid black;
     border-radius: 10px;
     cursor: pointer;
-    width: 284px;
+    width: 100%;
     height: 50px;
     margin-top: 15px;
     /* background-color: crimson;
@@ -73,7 +80,6 @@ iframe {
     animation-iteration-count: infinite;
 
 }
-
 
 
 @keyframes btnAnimation {
