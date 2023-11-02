@@ -1,0 +1,48 @@
+body{
+    background-color: #001935 !important;
+}
+.aramaBoyut{
+    height: 35px !important;
+
+}
+
+.inputIc{
+    padding-left: 10%;
+}
+
+.inputArkaPlan{
+    background-color: #FFFFFF40 !important;
+}
+
+input::placeholder{
+    color: white  !important;
+}
+
+.btnBoyut{
+    height: 38px;
+    width: 110px;
+    background-color: #00CF35 !important;
+}
+
+.icKutu{
+    width: 500px;
+    height: 520px;
+    padding: 40px, 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.fotograf {
+    margin: 12px;
+    justify-content: center;
+    display: flex;
+    
+}
+.fotograf {
+    position: relative;
+    width: 55%;
+    height: auto;
+    
+}
