@@ -5,7 +5,9 @@ body{
     height: 35px !important;
 
 }
-
+.aramaBoyut input{
+    outline: none;
+}
 .inputIc{
     padding-left: 10%;
 }
@@ -24,6 +26,7 @@ input::placeholder{
     background-color: #00CF35 !important;
 }
 
+
 .icKutu{
     width: 500px;
     height: 520px;
@@ -34,15 +37,69 @@ input::placeholder{
     transform: translate(-50%, -50%);
     
 }
-.fotograf {
+.fotograf{
     margin: 12px;
-    justify-content: center;
-    display: flex;
+    width: 55%;
+    margin: auto;
+}
+
+.fotograf img {
+    width: 100%;
+}
+
+
+
+form input{
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+form input::placeholder {
+   
+    color: rgb(132, 132, 132) !important;
+    opacity: 1;
+}
+
+.hamburgerIkon{
+    top: 20%;
+    right: 15%;
     
 }
-.fotograf {
-    position: relative;
-    width: 55%;
-    height: auto;
-    
+
+.buton button{
+    background-color: #00B8FF;
+    height: 55px;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    outline: none;
+    border: none;
+    padding: 0px;
+}
+
+.line{
+    border: 1px solid white;
+    width: 33%;
+    margin-left: 50px;
+    margin-top: 12px;
+    position: absolute;
+}
+.line2{
+
+}
+.ittir{
+    width: 35%;
+}
+
+p{
+    margin-right: 500px;
 }

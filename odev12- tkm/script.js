@@ -1,7 +1,6 @@
 
 let sekillerPC = ['Taş', 'Kağıt', 'Makas']
 
-
 let skorPC = 0
 let skorUser = 0
 
@@ -75,22 +74,23 @@ while (true) {
     
     if ((skorPC || skorUser) == 3) {
         console.log('Oyun Bitti.')
-    
+
         if (skorUser < skorPC) {
+            skorUser = 0
+            skorPC = 0
             console.log('Bilgisayar kazandı.')
         }
     
         else if (skorUser > skorPC) {
+            skorUser = 0
+            skorPC = 0
             console.log('Oyuncu kazandı.')
+            
         }
-    
-        else {
-            console.log('Berabere.')
-        }
+
         
-        break
     }
 
-
+    
 
 }
