@@ -210,6 +210,8 @@ nav{
 .card-box{
     padding: 4rem;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     position: relative;
 }
@@ -503,3 +505,16 @@ nav{
 }
 
 /*! FOOTER BİTİŞ  */
+
+/* @media screen and (max-width:1416px){
+    .
+}
+
+@media screen and (max-width:1380px){
+  .card-box{
+    width: 100%;
+    
+  }
+
+}
+ */
