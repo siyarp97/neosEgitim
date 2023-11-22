@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-img{
+    height: 120px;
+}
+.logo{
+    width: 150px;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.571),rgba(0, 0, 0, 0.571)),url(img/arkaplan.jpg);
+    height: 100vh;
+    
+}
+.icerik h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+/* .btn-boyut{
+    height: 58px;
+} */
+.inp-email:focus .deneme{
+    background-color: transparent !important;
+}
+.input-deneme{
+    height: 58px;
+    width: 100%;
+    
+}
+.label-deneme{
+    left: 10px;
+    top: 15px;
+    transition: .2s;
+}
+.label-active{
+    top: 5px;
+    font-size: 13px;
+}
+.drop-hover:hover{
+    background-color: grey !important;
+}
+.cizgi{
+    width: 100%;
+    border: 4px solid grey;
+}
+section h2{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.accordion-open{
+    transition: .5s;
+    height: 0;
+    
+}
+.carpi{
+    transition: .6s;
+    transform: rotate(45deg);
+}
+.accordion-active{
+    height: 200px;
+    padding: 20px;
+}
+
+@media (max-width:992px) {
+    .genislik-sm{
+        width: 100% !important;
+    }
+    .genislik-btn-sm{
+        width: 100% !important;
+    }
+}
+@media (min-width:992px) {
+    .genislik-lg{
+        width: 50% !important;}
+    
+    .genislik-btn-lg{
+            width: 25% !important;
+        }
+}
+
+
+
+
