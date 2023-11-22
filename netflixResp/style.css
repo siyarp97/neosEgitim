@@ -69,7 +69,7 @@ section h2{
         width: 100% !important;
     }
     .genislik-btn-sm{
-        width: 100% !important;
+        width: 75% !important;
     }
 }
 @media (min-width:992px) {
